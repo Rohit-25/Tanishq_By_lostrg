@@ -1,3 +1,73 @@
+body{
+    background-color:white;
+    color: black;
+}
+.mydark{
+    background-color: black;
+    /* color:white */
+}
+#coupon{
+    height:500px;
+    width:650px;
+    /* border: solid 2px black; */
+    position:absolute;
+    z-index: 10;
+    margin-top: 5%;
+    margin-left: 20%;
+    border-radius: 5%;
+    /* display: none; */
+}
+#darklight{
+    /* background-color: black; */
+    /* color: black; */
+    height: 65%;
+    width: 122%;
+    padding: 34%;
+}
+#closebutton{
+    height: 50%;
+    padding: 0px;
+   border: none;
+}
+#coupon > img{
+    height:500px;
+    width:650px;
+   
+    border-radius: 5%;
+}
+.xmark{
+    height: 150%;
+    color: aliceblue;
+}
+#icon{
+    height: 150%;
+    color: white;
+}
+.top-right{
+    position: absolute;
+    top: 8px;
+    right: 0px;
+
+}
+.header{
+    background-color:#f2e9e9;
+}
+.Signin{
+   display: inline-block; 
+   width: 250px;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.fsize{
+    font-size: 13px;
+}
+
+
+
+
+
+
 .logoimg{
     height:50px
 }
@@ -83,6 +153,7 @@
 } */
 #photoslider{
     width:100%;
+    opacity: .5;
     display: inline-block;
     /* border: 3px solid rgb(128, 0, 49); */
 }

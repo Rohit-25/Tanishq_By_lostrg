@@ -4,53 +4,88 @@
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-            <link rel="stylesheet" href="/Tanishq_By_lostrg/homepage.css">
+            <link rel="stylesheet" href="homepage.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-            
+            <!-- /Tanishq_By_lostrg/  -->
+            <script src="index.js"></script>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="img/tanishq_logo.jpg" class="logoimg rounded-pill"> </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Stores</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Account</a>
-                  </li>
-
-                  <!-- <figure>
-                    <a><i class="fa-solid fa-store nav-link"></i></a>
-                    <figcaption>Store</figcaption></a>
-                  </figure> -->
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Store</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Wishlist</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Cart</a>
-                  </li>
-                </ul>
-                <div class="search">
-                  <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+      <div class="header"> 
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="img/tanishq_logo.jpg" class="logoimg rounded-pill"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Stores</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Account</a>
+                </li> -->
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Account</a>
+                  <ul class="dropdown-menu">
+                    <div class="Signin">
+                      <h5>MY ACCOUNT</h5>
                     
-                  </form>
-                </div>
+                      <p class="fsize">LOGIN TO ACCESS YOUR ACCOUNT</p>
+                    </div>
+                  </ul>
+                </li>
+                <!-- <figure>
+                  <a><i class="fa-solid fa-store nav-link"></i></a>
+                  <figcaption>Store</figcaption></a>
+                </figure> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Store</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Wishlist</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cart</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-sun" id="darklight" onclick="changemode()"></i>
+                  </a>
+                </li>
                 
+    
+                <!-- <i class="fa-regular fa-lightbulb-on"></i> -->
+                <div id="coupon" class="container">
+                  <div class="top-right">
+                    <!-- <button id="closebutton"> -->
+                      <a href="#">
+                        <span id="icon" onclick="closecoupon()">
+                          &#x2715
+                       </span>
+                      </a>
+                     
+                    <!-- </button> -->
+                  
+                </div> 
+                <img src="img/coupon2.jpg">
+                </div>
+              </ul>
+              <div class="search">
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search for Gold, Jewellery & many more..." aria-label="Search ">
+                  <button class="btn btn-light" type="submit">Search </button>
+                  
+                </form>
               </div>
+              
             </div>
-          </nav>
+          </div>
+        </nav>
+      </div>
+        
           <ul class="nav justify-content-start">
             <li class="nav-item dropdown alljewell">
                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">All Jewellery</a>
