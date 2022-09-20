@@ -26,7 +26,7 @@ function showposition(data){
     let lat = data.coords.latitude;
     let long = data.coords.longitude;
     //  x.innerText = `Lat: ${lat.toFixed(2)} Long: ${long.toFixed(2)}`;
-     const url = `http://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`;
+     const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`;
      //api calling
      fetch(url,{method:`GET`})
      //return promise
