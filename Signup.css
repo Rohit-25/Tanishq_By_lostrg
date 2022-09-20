@@ -1,0 +1,43 @@
+.Tanishqlogo{
+    height: 150px;
+    width: 150px;
+    /* border: 2px solid salmon; */
+    align-content: center;
+    margin-left: 43%;
+    margin-top: 8%;
+    display: block;
+    
+}
+.Formcontent{
+    /* height: 600px; */
+    display: inline-block;
+    width: 90%; 
+     margin-left: 6%;
+    border: 2px solid #f2e9e9; 
+}
+.singupimg{
+    /* height:500px; */
+    display: inline-block;
+    
+}
+#location{
+    margin-top: -6px;
+    margin-bottom: -1rem;
+    margin-left: -18%;
+    font-size: small;
+    
+}
+.content{
+   /* margin: 3%; */
+
+}
+.bottom{
+    height: 200px;
+}
+.top-right{
+    position: absolute;
+    top: 8px;
+    right: 0px;
+
+}
+

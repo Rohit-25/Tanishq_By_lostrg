@@ -7,7 +7,7 @@
             <link rel="stylesheet" href="/Tanishq_By_lostrg/homepage.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
             <!-- /Tanishq_By_lostrg/  -->
-            <script src="/Tanishq_By_lostrg/index.js"></script>
+            
     </head>
     <body>
       <div class="header"> 
@@ -31,8 +31,9 @@
                   <ul class="dropdown-menu">
                     <div class="Signin">
                       <h5>MY ACCOUNT</h5>
-                    
                       <p class="fsize">LOGIN TO ACCESS YOUR ACCOUNT</p>
+                      <button type="button" class="btn btn-outline-danger">LOGIN</button>
+                      <button type="button" class="btn btn-outline-danger"><a href="signup.html">SIGN UP</a></button>
                     </div>
                   </ul>
                 </li>
@@ -52,8 +53,17 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">
-                    <i class="fa-solid fa-sun" id="darklight" onclick="changemode()"></i>
+                    <i class="fa-solid fa-sun"  onclick="changemode()"></i>
                   </a>
+                </li>
+                <li class="nav-item">
+                
+                  <a class="nav-link" href="#">
+                    <i class="fa-sharp fa-solid fa-location-crosshairs" onclick="getgeolocation()"></i>
+                  </a>
+                  
+                  <p id="location"></p>
+                  <p id="weather"></p>
                 </li>
                 
     
@@ -729,7 +739,7 @@
         </div>
 
 
-
+        <script src="/Tanishq_By_lostrg/index.js"></script>
 
 
 
