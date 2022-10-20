@@ -1,23 +1,21 @@
 *First Page*
 
-# All category of Jwellery
-# List of Earrings
+<!-- # All category of Jwellery -->
+# List of Earrings 
+http://localhost:9800/earring
 # List of Rings
+http://localhost:9800/rings
 # Shop By Category
-# shop By gender
+http://localhost:9800/category
+
 
 *Second Page*
-# list of jwellery wrt category
-# list of jwellery wrt gender
-# sort wrt popularity
+
 # sort wrt price 
+http://localhost:9800/earring?sort=-1
 
 *Third Page*
-# Details of the jewellery
+# Details of the rings
+http://localhost:9800/details/6
 
-*Fourth Page*
-# Details of added jwellery in cart
-# place order
 
-*Fifth Page*
-# 
