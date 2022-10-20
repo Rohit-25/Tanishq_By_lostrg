@@ -11,7 +11,8 @@
         "new_price": 19499,
         "discount": 8,
         "delivery_type": "Free delivery",
-        "item_id": 1
+        "item_id": 1,
+        "category_id": 2
     },
     {
         "image": "https://ibb.co/F4ntL8v",
@@ -25,7 +26,8 @@
         "new_price": 98999,
         "discount": 10,
         "delivery_type": "Free delivery",
-        "item_id": 2
+        "item_id": 2,
+        "category_id": 2
     },{
         "image": "https://ibb.co/mRM6mjL",
         "description": "Floral Motif Gold And Diamond Finger Ring",
@@ -38,7 +40,8 @@
         "new_price": 29499,
         "discount": 10,
         "delivery_type": "Free delivery",
-        "item_id": 3
+        "item_id": 3,
+        "category_id": 2
     },{
         "image": "https://ibb.co/LgxBsGM",
         "description": "Splendid 18 Karat Yellow Gold And Diamond Floral Ring",
@@ -51,7 +54,8 @@
         "new_price": 9499,
         "discount": 10,
         "delivery_type": "Free delivery",
-        "item_id": 4
+        "item_id": 4,
+        "category_id": 2
     },{
         "image": "https://ibb.co/F4Gp8qy",
         "description": "Contemporary Line Diamond Ring",
@@ -64,7 +68,8 @@
         "new_price": 9499,
         "discount": 10,
         "delivery_type": "Free delivery",
-        "item_id": 5
+        "item_id": 5,
+        "category_id": 2
     },{
         "image": "https://ibb.co/xLFK9bh",
         "description": "Handsome 22 Karat Gold Geometric Band Ring",
@@ -77,7 +82,8 @@
         "new_price": 19499,
         "discount": 10,
         "delivery_type": "Free delivery",
-        "item_id": 6
+        "item_id": 6,
+        "category_id": 2
     },{
         "image": "https://ibb.co/xsGd8Qh",
         "description": "Dapper 22 Karat Yellow Gold Geometric Finger Ring",
@@ -90,7 +96,8 @@
         "new_price": 85999,
         "discount": 10,
         "delivery_type": "Free delivery",
-        "item_id": 7
+        "item_id": 7,
+        "category_id": 2
     },
     {
         "image": "https://ibb.co/Vp9DyD8",
@@ -104,7 +111,8 @@
         "new_price": 89499,
         "discount": 10,
         "delivery_type": "Free delivery",
-        "item_id": 8
+        "item_id": 8,
+        "category_id": 2
     },{
         "image": "https://ibb.co/0FnhC1g",
         "description": "Timeless 22 Karat Yellow Gold Finger Ring",
@@ -117,7 +125,8 @@
         "new_price": 9499,
         "discount": 10,
         "delivery_type": "Free delivery",
-        "item_id": 9
+        "item_id": 9,
+        "category_id": 2
     },{
         "image": "https://ibb.co/LQjCSRR",
         "description": "Dainty 18 Karat Yellow Gold And Diamond Finger Ring",
@@ -130,7 +139,8 @@
         "new_price": 3499,
         "discount": 10,
         "delivery_type": "Free delivery",
-        "item_id": 10
+        "item_id": 10,
+        "category_id": 2
     },{
         "image": "https://ibb.co/GPPT7tT",
         "description": "Stunning Intricate Ring",
@@ -143,7 +153,8 @@
         "new_price": 59499,
         "discount": 10,
         "delivery_type": "Free delivery",
-        "item_id": 11
+        "item_id": 11,
+        "category_id": 2
     },{
         "image": "https://ibb.co/X4LWxq3",
         "description": "Magnificent 22 Karat Yellow Gold Beaded Floral Statement Ring",
@@ -156,7 +167,8 @@
         "new_price": 89499,
         "discount": 10,
         "delivery_type": "Free delivery",
-        "item_id": 12
+        "item_id": 12,
+        "category_id": 2
     }
     
 ]

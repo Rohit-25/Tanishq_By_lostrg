@@ -11,7 +11,8 @@
         "new_price": 9499,
         "discount": 10,
         "delivery_type": "Free delivery",
-        "item_id": 1
+        "item_id": 1,
+        "category_id": 1
         
     },
     {
@@ -26,7 +27,8 @@
         "new_price": 19499,
         "discount": 10,
         "delivery_type": "Free delivery",
-        "item_id": 2
+        "item_id": 2,
+        "category_id": 1
     },
     {
         "image": "https://ibb.co/pLrYksq",
@@ -40,7 +42,8 @@
         "new_price": 9499,
         "discount": 10,
         "delivery_type": "Free delivery",
-        "item_id": 3
+        "item_id": 3,
+        "category_id": 1
     },
     {
         "image": "https://ibb.co/VDtM50T",
@@ -54,7 +57,8 @@
         "new_price": 39499,
         "discount": 12,
         "delivery_type": "Free delivery",
-        "item_id": 4
+        "item_id": 4,
+        "category_id": 1
     },
     {
         "image": "https://ibb.co/TTCkQCx",
@@ -68,7 +72,8 @@
         "new_price": 18499,
         "discount": 5,
         "delivery_type": "Free delivery",
-        "item_id": 5
+        "item_id": 5,
+        "category_id": 1
     },
     {
         "image": "https://ibb.co/frhkwPt",
@@ -82,7 +87,8 @@
         "new_price": 48499,
         "discount": 12,
         "delivery_type": "Free delivery",
-        "item_id": 6
+        "item_id": 6,
+        "category_id": 1
     },
     {
         "image": "https://ibb.co/kJQYdDg",
@@ -96,7 +102,8 @@
         "new_price": 38475,
         "discount": 12,
         "delivery_type": "Free delivery",
-        "item_id": 7
+        "item_id": 7,
+        "category_id": 1
     },
     {
         "image": "https://ibb.co/44FkBJz",
@@ -110,7 +117,8 @@
         "new_price": 38475,
         "discount": 12,
         "delivery_type": "Free delivery",
-        "item_id": 8
+        "item_id": 8,
+        "category_id": 1
     },
     {
         "image": "https://ibb.co/Tq0n6Fq",
@@ -124,7 +132,8 @@
         "new_price": 12475,
         "discount": 12,
         "delivery_type": "Free delivery",
-        "item_id": 9
+        "item_id": 9,
+        "category_id": 1
     },
     {
         "image": "https://ibb.co/JxWRdDL",
@@ -138,7 +147,8 @@
         "new_price": 32475,
         "discount": 10,
         "delivery_type": "Free delivery",
-        "item_id": 10
+        "item_id": 10,
+        "category_id": 1
     },
     {
         "image": "https://ibb.co/DrzqH9B",
@@ -152,7 +162,8 @@
         "new_price": 12475,
         "discount": 12,
         "delivery_type": "Free delivery",
-        "item_id": 11
+        "item_id": 11,
+        "category_id": 1
     },
     {
         "image": "https://ibb.co/GtD2s0Q",
@@ -166,6 +177,7 @@
         "new_price": 22475,
         "discount": 12,
         "delivery_type": "Free delivery",
-        "item_id": 12
+        "item_id": 12,
+        "category_id": 1
     }
 ]

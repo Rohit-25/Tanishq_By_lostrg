@@ -1,0 +1,15 @@
+[
+    {
+        "id":1,
+        "gender": "Women"
+    },
+    {
+        "id":2,
+        "category":"Men"
+    },
+    {
+        "id":3,
+        "category":"Kids"
+    }
+   
+]
